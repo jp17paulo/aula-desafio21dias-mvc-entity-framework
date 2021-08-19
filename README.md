@@ -46,4 +46,20 @@ dotnet tool install -g dotnet-aspnet-codegenerator
 dotnet aspnet-codegenerator controller -name AlunosController -m Aluno -dc DbContexto --relativeFolderPath Controllers --useDefaultLayout
 
 ```
+# Um pouco sobre API REST
 
+GET - Buscar informações
+POST - Cadastrar informações
+
+PUT - Fazer alterações de todos os campos
+PATCH - Para fazer alterações de alguns campos
+
+DELETE - Apagar as informações
+
+
+Web - HTML ....   Amaram as coisas por suas tags
+SOAP - XML ....
+
+REST - GET, POST, PUT, DELETE ... Minimo para uma App rest, (JSON ou XML)
+
+RESTFULL - GET, POST, PUT, DELETE ... Responde por formatos diferentes, HTML, JSON, XML, CSV 
